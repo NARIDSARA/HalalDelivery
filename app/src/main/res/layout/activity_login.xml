@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+
+     <EditText
+         android:id="@+id/Edt_username"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:hint="username" />
+
+    <EditText
+        android:id="@+id/Edt_password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/Btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+    <Button
+        android:id="@+id/Btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+
+
+
+</LinearLayout>
