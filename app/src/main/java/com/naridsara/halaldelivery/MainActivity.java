@@ -19,4 +19,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getBaseContext(), "ok", Toast.LENGTH_LONG).show();
         }
     }
+
+    // TODO: 27/10/2562 TEST
 }
